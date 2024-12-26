@@ -98,8 +98,8 @@
     font-weight: bold;
 
     &::after {
-      content:'▼';
-      color:$white;
+      content: '▼';
+      color: $white;
       // @include beaf;
       // // position: absolute;
       // width: 2px;
@@ -273,6 +273,7 @@
       position: absolute;
       overflow: hidden;
       pointer-events: none;
+      width: 100%;
 
 
       .l_gnav__header {
@@ -280,6 +281,7 @@
         pointer-events: auto;
         background-color: $pink;
         opacity: 1;
+        width: 100%;
         height: 100vh;
         z-index: 300;
         background-image: url(../img/logo_outline_opacity.svg);
@@ -671,7 +673,7 @@
     text-transform: uppercase;
     font-weight: bold;
 
-    a:hover{
+    a:hover {
       opacity: 0.6;
     }
 
@@ -698,7 +700,7 @@
 
     @include desktop {
       padding-right: 20px;
-      padding-bottom:10px;
+      padding-bottom: 10px;
 
       &::before {
         content: '|';
@@ -708,7 +710,7 @@
     }
 
   }
-  
+
   &__copyright {
     text-align: center;
     padding: 20px;
@@ -716,7 +718,7 @@
     background-color: $pink;
     color: $white;
   }
-  
+
 }
 
 
@@ -1041,7 +1043,7 @@ span {
 .c_kv__subLogo {
   width: 10vw;
   margin: 50px auto;
-  min-width:100px;
+  min-width: 100px;
 
   @include desktop {
 
@@ -1180,5 +1182,3 @@ span {
     }
   }
 }
-
-

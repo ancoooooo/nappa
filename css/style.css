@@ -340,12 +340,14 @@ body.is-openMenu {
   position: absolute;
   overflow: hidden;
   pointer-events: none;
+  width: 100%;
 }
 body.is-openMenu .l_gnav__header {
   position: fixed;
   pointer-events: auto;
   background-color: #EEDBD1;
   opacity: 1;
+  width: 100%;
   height: 100vh;
   z-index: 300;
   background-image: url(../img/logo_outline_opacity.svg);
